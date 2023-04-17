@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
+
+  <Identity
+    Name="35594065-1311-491B-A5E9-AC5EF6ECE398"
+    Version="1.0.0.0"
+    Publisher="CN=GPLAT" />
+
+  <mp:PhoneIdentity PhoneProductId="35594065-1311-491B-A5E9-AC5EF6ECE398" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>GPLATDEV</DisplayName>
+    <PublisherDisplayName>GPLAT</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application
+      Id="dev.GPLAT.dev"
+      StartPage="index.html">
+
+      <uap:VisualElements
+        DisplayName="GPLATDEV"
+        Description="GPLAYDEV"
+        BackgroundColor="#464646"
+        Square150x150Logo="images\Logo.png"
+        Square44x44Logo="images\square44logo.png">
+		
+        <uap:SplashScreen Image="images\splashscreen.png" />
+		
+
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+
+</Package>
